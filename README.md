@@ -3,9 +3,9 @@ by Stereolabs. The "xarm_zed" package has a node that it controls the robot thro
 
 REQUIREMENTS:
 
-•	ROS2 (This project has been run in ROS2 Foxy Ubuntu 20.04 on a Jetson AGX Xavier)
+•	ROS2 (This project has been run in ROS2 Foxy Ubuntu 20.04 on a Jetson AGX Xavier: https://docs.ros.org/en/foxy/index.html)
 
-•	Package “xarm_ros2: https://docs.ufactory.cc/xarm_ros2/readme_en ( In this page of UFactory you could download some user manuals and many other things that it could help you)
+•	Package “xarm_ros2: https://docs.ufactory.cc/xarm_ros2/readme_en ( In this page of UFactory you could download some user manuals and many other things that it could help you: https://www.ufactory.cc/download/)
 
 •	Package “zed-ros2-wrapper” : https://www.stereolabs.com/docs/ros2 (If you want to use the example of ROS2 of the ZED camera like rviz, you will need to download
 “zed-ros2-examples”: https://github.com/stereolabs/zed-ros2-examples?tab=readme-ov-file#build-the-package).
