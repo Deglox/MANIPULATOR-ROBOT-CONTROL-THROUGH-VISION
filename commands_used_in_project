@@ -1,0 +1,24 @@
+
+# Commands to initialize the manipulator and to connect the robot and the computer
+
+ros2 service call /xarm/motion_enable xarm_msgs/srv/SetInt16ById "{id: 8, data: 1}"
+ros2 service call /xarm/set_mode xarm_msgs/srv/SetInt16 "{data: 0}"
+ros2 service call /xarm/set_state xarm_msgs/srv/SetInt16 "{data: 0}"
+
+ros2 launch xarm_api xarm6_driver.launch.py robot_ip:=192.168.1.244
+
+
+
+#Command to run the main program that it controls the xArm6
+
+ros2 run xarm_zed tfg
+
+
+#Command to connect the camera and the computer to recive the visual feedback
+
+ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zedm 
+
+
+
+
+
